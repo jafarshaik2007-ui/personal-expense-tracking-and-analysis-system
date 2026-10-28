@@ -1,0 +1,16 @@
+PERSONAL EXPENSE TRACKER — QUICK START
+
+1. Extract this ZIP file.
+2. Open the extracted personal-expense-tracker folder in VS Code.
+3. Double-click run_website.bat.
+4. Wait while Flask installs, then open http://127.0.0.1:5000 if it did not open automatically.
+5. Register a new account, log in, and add your income/expenses.
+
+Keep the black terminal window open while using the website. Close it to stop the website.
+The SQLite database (expense_tracker.db) is created automatically in this folder.
+
+If double-clicking the .bat file fails, open a VS Code terminal in this folder and run:
+  python -m pip install -r requirements.txt
+  python app.py
+
+Then open http://127.0.0.1:5000 in your browser.
